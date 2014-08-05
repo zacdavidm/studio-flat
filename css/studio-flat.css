@@ -1,3 +1,24 @@
+/* Reset Heading Sizes */
+h1{
+  font-size:2rem;
+}
+h2{
+  font-size:1.5rem;
+}
+h3{
+  font-size:1.17rem;
+}
+h4{
+  font-size:1rem;
+}
+h5{
+  font-size:.83rem;
+}
+h6{
+  font-size:.67rem;
+}
+/* /Reset Heading Sizes */
+
 table{
   width:100%;
 }
@@ -14,9 +35,8 @@ table{
 
 /* Top Bar */
 
-
-/*
-.top-bar-section .has-dropdown > a:after{
+  /*
+  .top-bar-section .has-dropdown > a:after{
     border-left-color: rgba(0, 0, 0, 0.4);
   }*/
 

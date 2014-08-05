@@ -12,6 +12,7 @@ base theme = foundation_fixr
 
 ; Foundation framework stylesheets
 stylesheets[all][] = css/studio-flat.css
+stylesheets[all][] = fonts/foundation-icons/foundation-icons.css
 
 ; Modernizr acts as a shim for HTML5 elements for older browsers
 ; as well as detection for mobile devices.
