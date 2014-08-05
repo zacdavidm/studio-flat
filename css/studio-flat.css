@@ -13,10 +13,7 @@ table{
 }
 
 /* Top Bar */
-.top-bar{
-  color:#222222;
-  background-color:#fff;
-}
+
 .top-bar-section li:not(.has-form) a:not(.button):hover{
   background-color:#F0F0F0;
 }
@@ -49,53 +46,38 @@ table{
 }
 
 .contain-to-grid{
-  padding: 0;
-  margin-top:0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  border: 0;
-  border-bottom:3px solid #c92323;
-  border-right:0;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
+  border-bottom-width:3px;
+  border-bottom-style:solid;
 }
 .contain-to-grid .top-bar {
+  color:inherit;
   background-color:inherit;
-}
-
-.top-bar-section .dropdown{
-  background-color: #FFF;
-}
-
-.top-bar .name h1 a{
-  background: #c92323;
-  color: white;
 }
 
 /* /Top Bar */
 
+/* Top Bar Easy Overrides
+
+.contain-to-grid{
+  color:#xxxxxx;
+  background-color:#xxxxxx;
+  border-bottom-color:#xxxxxx;
+}
+
+.top-bar-section .dropdown{
+  background-color: #xxxxxx;
+}
+
+.top-bar .name h1 a{
+  background-color: #xxxxxx;
+  color: #xxxxxx;
+}
+
+/* /Top Bar Easy Overrides */
+
 @media only screen and (min-width: 40.063em){ /* Medium Up */
 
-/* Top Bar */
-
-	.top-bar .name h1 a:before,
-	.top-bar .name h1 a:after{
-    content:"";
-    width:1rem;
-    height:1rem;
-    position:absolute;
-    top:50%;
-    margin-top:.4rem;
-    background:white;
-    border-radius:1rem;
-  }
-  .top-bar .name h1 a:before{
-    left:.5rem;
-  }
-  .top-bar .name h1 a:after{
-    right:-.5rem;
-  }
+/* Site Name */
 
   .top-bar .name h1 a{
     line-height: 1.3;
@@ -105,6 +87,6 @@ table{
     font-weight:bold;
   }
 
-/* /Top Bar */
+/* /Site Name */
 
 } /* /Medium Up */
