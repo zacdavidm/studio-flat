@@ -1,0 +1,110 @@
+table{
+  width:100%;
+}
+
+::selection{
+  color:white;
+  background:rgba(10, 10, 10, 0.85);
+}
+
+::-moz-selection{
+  color:white;
+  background:rgba(10, 10, 10, 0.85);
+}
+
+/* Top Bar */
+.top-bar{
+  color:#222222;
+  background-color:#fff;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+  background-color:#F0F0F0;
+}
+
+.top-bar-section .has-dropdown > a:after{
+    border-left-color: rgba(0, 0, 0, 0.4);
+  }
+
+.top-bar.expanded .title-area,
+.top-bar .name h1,
+.top-bar .name h1 a,
+.top-bar .toggle-topbar.menu-icon a,
+.top-bar-section,
+.top-bar-section ul,
+.top-bar-section .dropdown,
+.top-bar-section .dropdown li.title h5 a,
+.top-bar-section li:not(.has-form),
+.top-bar-section li:not(.has-form) a:not(.button){
+  color:inherit;
+  background-color:inherit;
+}
+
+.top-bar .toggle-topbar.menu-icon a::after{
+  -webkit-box-shadow: 0 10px 0 1px, 0 16px 0 1px, 0 22px 0 1px;
+  box-shadow: 0 10px 0 1px, 0 16px 0 1px, 0 22px 0 1px;
+}
+.top-bar.expanded .toggle-topbar a span{
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+
+.contain-to-grid{
+  padding: 0;
+  margin-top:0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  border-bottom:3px solid #c92323;
+  border-right:0;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+.contain-to-grid .top-bar {
+  background-color:inherit;
+}
+
+.top-bar-section .dropdown{
+  background-color: #FFF;
+}
+
+.top-bar .name h1 a{
+  background: #c92323;
+  color: white;
+}
+
+/* /Top Bar */
+
+@media only screen and (min-width: 40.063em){ /* Medium Up */
+
+/* Top Bar */
+
+	.top-bar .name h1 a:before,
+	.top-bar .name h1 a:after{
+    content:"";
+    width:1rem;
+    height:1rem;
+    position:absolute;
+    top:50%;
+    margin-top:.4rem;
+    background:white;
+    border-radius:1rem;
+  }
+  .top-bar .name h1 a:before{
+    left:.5rem;
+  }
+  .top-bar .name h1 a:after{
+    right:-.5rem;
+  }
+
+  .top-bar .name h1 a{
+    line-height: 1.3;
+    padding: 1rem;
+    width: 8rem;
+    margin-left: 1rem;
+    font-weight:bold;
+  }
+
+/* /Top Bar */
+
+} /* /Medium Up */
