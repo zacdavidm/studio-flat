@@ -1,23 +1,24 @@
-name = ZURB Foundation
-description = Drupal implementation of the Zurb Foundation 5 framework.
-core = 7.x
-engine = phptemplate
-
-; Image appears on admin/appearance
+name = Studio Flat
+description = drupal foundation theme built to be deployed at scale and customized.
 screenshot = images/screenshot.jpg
 
+core = 7.x
+engine = phptemplate
+base theme = foundation-fixr
+
+
 ; Reset styles with normalize
-stylesheets[all][] = css/normalize.css
+;stylesheets[all][] = css/normalize.css
 
 ; Foundation framework stylesheets
 stylesheets[all][] = css/studio-flat.css
 
 ; Modernizr acts as a shim for HTML5 elements for older browsers
 ; as well as detection for mobile devices.
-scripts[] = js/vendor/custom.modernizr.js
+;scripts[] = js/vendor/custom.modernizr.js
 
 ; Foundation framework scripts.
-scripts[] = js/foundation.min.js
+;scripts[] = js/foundation.min.js
 
 ; Source order:
 ; http://foundation.zurb.com/docs/index.html#basicHTMLMarkup
