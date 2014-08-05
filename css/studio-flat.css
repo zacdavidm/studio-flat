@@ -46,6 +46,7 @@ table{
 }
 
 .contain-to-grid{
+  color: #ffffff;
   border-bottom-width:3px;
   border-bottom-style:solid;
 }
@@ -53,7 +54,6 @@ table{
   color:inherit;
   background-color:inherit;
 }
-
 /* /Top Bar */
 
 /* Top Bar Easy Overrides
