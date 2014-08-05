@@ -67,6 +67,7 @@ table{
   color: #ffffff;
   border-bottom-width:3px;
   border-bottom-style:solid;
+  margin-bottom:1rem;
 }
 .contain-to-grid .top-bar {
   color:inherit;
@@ -97,6 +98,11 @@ table{
 }
 
 /* /Top Bar Easy Overrides */
+
+aside.sidebar{
+  margin-top:1rem;
+  background-color:#E4E4E4;
+}
 
 @media only screen and (min-width: 40.063em){ /* Medium Up */
 
