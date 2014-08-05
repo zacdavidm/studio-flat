@@ -14,13 +14,11 @@ table{
 
 /* Top Bar */
 
-.top-bar-section li:not(.has-form) a:not(.button):hover{
-  background-color:#F0F0F0;
-}
 
+/*
 .top-bar-section .has-dropdown > a:after{
     border-left-color: rgba(0, 0, 0, 0.4);
-  }
+  }*/
 
 .top-bar.expanded .title-area,
 .top-bar .name h1,
@@ -73,6 +71,11 @@ table{
   color: #xxxxxx;
 }
 
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  color:#xxxxxx;
+  background-color: #xxxxxx;
+}
+
 /* /Top Bar Easy Overrides */
 
 @media only screen and (min-width: 40.063em){ /* Medium Up */
@@ -88,5 +91,13 @@ table{
   }
 
 /* /Site Name */
+
+/* Top Bar Dropdown Arrows */
+.top-bar-section .has-dropdown > a:after{
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-left-color:transparent;
+  }
+
+/* /Top Bar Dropdown Arrows */
 
 } /* /Medium Up */
