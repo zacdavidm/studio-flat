@@ -102,6 +102,12 @@ table{
 
 /* /Top Bar Easy Overrides */
 
+/* Main Area Clear Name */
+.l-main{
+  clear:both;
+}
+/* /Main Area Clear Name */
+
 aside.sidebar{
   margin-top:1rem;
   background-color:#E4E4E4;

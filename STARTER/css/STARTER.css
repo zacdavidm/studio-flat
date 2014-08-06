@@ -1,0 +1,52 @@
+
+/* /Top Bar */
+
+/* Top Bar Easy Overrides - Light Theme 
+
+.contain-to-grid{
+  color:#222;
+  background-color:#fff;
+  border-bottom-color:#000;
+}
+
+.top-bar-section .dropdown{
+  background-color: #fff;
+}
+
+.top-bar .name h1 a{
+  background-color: #000;
+  color: #fff;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color:#bdc3c7;
+}
+
+/* /Top Bar Easy Overrides - Light Theme */
+
+/* Top Bar Easy Overrides - Default Unthemed
+
+.contain-to-grid{
+  color:#222;
+  background-color:#fff;
+  border-bottom-color:#xxxxxx;
+}
+
+.top-bar-section .dropdown{
+  background-color: #xxxxxx; 
+}
+
+.top-bar .name h1 a{
+  background-color: #xxxxxx;
+  color: #xxxxxx;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  color:#xxxxxx;
+  background-color: #xxxxxx;
+}
+
+/* /Top Bar Easy Overrides - Default Unthemed */
+
+/* /Top Bar */
+
