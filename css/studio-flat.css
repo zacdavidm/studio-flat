@@ -23,6 +23,12 @@ table{
   width:100%;
 }
 
+ul.menu{
+  list-style-type:none;
+}
+
+
+
 ::selection{
   color:white;
   background:rgba(10, 10, 10, 0.85);
