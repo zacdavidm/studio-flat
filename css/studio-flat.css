@@ -27,7 +27,25 @@ ul.menu{
   list-style-type:none;
 }
 
+.links.inline {
+  margin: 0 auto 1.0625rem auto;
+  margin-left: -1.375rem;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
 
+.links.inline > li{
+  list-style: none;
+  float: left;
+  margin-left: 1.375rem;
+  display: block;
+}
+
+.links.inline > li>* {
+display: block;
+}
 
 ::selection{
   color:white;
