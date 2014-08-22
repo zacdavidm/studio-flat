@@ -57,6 +57,10 @@ display: block;
   background:rgba(10, 10, 10, 0.85);
 }
 
+.node .field{
+  margin-bottom:1rem;
+}
+
 /* Top Bar */
 
   /*
