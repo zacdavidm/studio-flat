@@ -153,10 +153,8 @@ display: block;
 
 aside.sidebar{
   background-color:#E4E4E4;
-}
-
-.block-search{
-  margin-top:1rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
 }
 
 @media only screen and (min-width: 40.063em){ /* Medium Up */
