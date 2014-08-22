@@ -68,6 +68,14 @@ display: block;
   margin-bottom:1rem;
 }
 
+.field-type-datetime{
+	font-size:.8rem;
+}
+.field-type-datetime .date-display-start,
+.field-type-datetime .date-display-end{
+ font-size:1.3rem;
+}
+
 /* Top Bar */
 
   /*
