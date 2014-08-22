@@ -63,6 +63,7 @@ display: block;
   margin-top: -.5rem;
 }
 
+.node .image,
 .node .field{
   margin-bottom:1rem;
 }
