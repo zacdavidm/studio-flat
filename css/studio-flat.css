@@ -57,6 +57,12 @@ display: block;
   background:rgba(10, 10, 10, 0.85);
 }
 
+.posted {
+  font-size: .8rem;
+  margin-bottom: 1rem;
+  margin-top: -.5rem;
+}
+
 .node .field{
   margin-bottom:1rem;
 }
