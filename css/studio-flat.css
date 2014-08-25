@@ -121,6 +121,15 @@ display: block;
 }
 /* /Top Bar */
 
+/* Breadcrumbs */
+
+.breadcrumbs{
+  border-width:0;
+  background-color:transparent;
+}
+
+/* /Breadcrumbs */
+
 /* Top Bar Easy Overrides
 
 .contain-to-grid{

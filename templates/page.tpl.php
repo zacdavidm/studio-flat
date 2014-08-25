@@ -68,10 +68,10 @@
       </section>
     <?php endif; ?>
     <!-- End title, slogan and menu -->
-
+    
     <?php if (!empty($page['header'])): ?>
       <!--.l-header-region -->
-      <section class="l-header-region row">
+      <section class="l-header-region row collapse">
         <div class="large-12 columns">
           <?php print render($page['header']); ?>
         </div>
@@ -82,7 +82,13 @@
   </header>
   <!--/.l-header -->
   
-  <?php if ($breadcrumb): print $breadcrumb; endif; ?>
+  <?php if ($breadcrumb): ?>
+  <section class="l-breadcrumbs-region row">
+    <div class="large-12 columns">
+      <?php print $breadcrumb; ?>
+    </div>
+  </section>
+  <?php endif; ?>
   
   <?php if (!empty($page['featured'])): ?>
     <!--.featured -->
