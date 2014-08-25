@@ -162,6 +162,7 @@ aside.sidebar{
 /* Social Connection Section */
 .social-connection-section i{
 	font-size:2.5rem;
+	margin-right:.5rem;
 }
 .social-connection-section span{
 	position:relative;
