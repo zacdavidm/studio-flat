@@ -125,6 +125,7 @@ display: block;
 
 .breadcrumbs{
   border-width:0;
+  padding-left:0;
   background-color:transparent;
 }
 
