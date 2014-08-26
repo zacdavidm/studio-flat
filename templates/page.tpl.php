@@ -82,13 +82,14 @@
   </header>
   <!--/.l-header -->
   
-  <?php if ($breadcrumb): ?>
-  <section class="l-breadcrumbs-region row">
-    <div class="large-12 columns">
+  <section class="l-navigation-region row">
+    <div class="medium-6 columns">
       <?php print $breadcrumb; ?>
     </div>
+    <div class="medium-6 columns">
+      <?php print render($page['navigation']); ?>
+    </div>
   </section>
-  <?php endif; ?>
   
   <?php if (!empty($page['featured'])): ?>
     <!--.featured -->

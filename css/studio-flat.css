@@ -107,8 +107,8 @@ display: block;
 }
 
 .top-bar .name{
-  height:auto;
-  margin-bottom:1rem;
+  position:relative;
+  z-index:5;
 }
 .contain-to-grid{
   color: #ffffff;
@@ -178,6 +178,22 @@ aside.sidebar{
 	top:-.5rem;
 }
 /* /Social Connection Section */
+
+/* l-navigation-region */
+
+.l-navigation-region{
+  clear:both;
+  padding-top:1rem;
+}
+
+/* /l-navigation-region */
+
+/* Set Region Color */
+.l-navigation-region,
+.l-main{
+  background-color:white;
+}
+/* /Set Region Color */
 
 @media only screen and (min-width: 40.063em){ /* Medium Up */
 
