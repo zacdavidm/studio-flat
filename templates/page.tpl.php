@@ -1,4 +1,5 @@
 <!--.page -->
+<?php if (!empty($page['header'])): $top_bar_clases+='has-header-image'; endif; ?>
 <div role="document" class="page clearfix">
 
   <!--.l-header -->

@@ -107,9 +107,17 @@ display: block;
 }
 
 .top-bar .name{
+  height:auto;
+  margin-bottom:1rem;
+}
+
+.top-bar.has-header-image .name{
+  height:45px;
+  margin-bottom:0;
   position:relative;
   z-index:5;
 }
+
 .contain-to-grid{
   color: #ffffff;
   border-bottom-width:3px;
