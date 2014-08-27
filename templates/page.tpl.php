@@ -1,5 +1,5 @@
 <!--.page -->
-<div role="document" class="page">
+<div role="document" class="page clearfix">
 
   <!--.l-header -->
   <header role="banner" class="l-header">
