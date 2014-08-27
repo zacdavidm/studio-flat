@@ -1,5 +1,5 @@
 <!--.page -->
-<?php if (!empty($page['header'])): dpm($top_bar_classes); $top_bar_classes+=' has-header-image'; endif; ?>
+<?php if (!empty($page['header'])): dpm($top_bar_classes); $top_bar_classes.=" has-header-image"; dpm($top_bar_classes); endif; ?>
 <div role="document" class="page clearfix">
 
   <!--.l-header -->
