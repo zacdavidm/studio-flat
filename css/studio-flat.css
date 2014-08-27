@@ -111,7 +111,7 @@ display: block;
   margin-bottom:1rem;
 }
 
-.top-bar.has-header-image .name{
+.has-header-image .top-bar .name{
   height:45px;
   margin-bottom:0;
   position:relative;
