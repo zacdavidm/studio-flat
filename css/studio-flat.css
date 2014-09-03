@@ -178,11 +178,15 @@ aside.sidebar{
 /* /Sidebar */
 
 /* Social Connection Section */
-.social-connection-section i{
+.bean-social-media a{
+	display:block;
+}
+
+.bean-social-media i{
 	font-size:2.5rem;
 	margin-right:.5rem;
 }
-.social-connection-section span{
+.bean-social-media span{
 	position:relative;
 	top:-.5rem;
 }
