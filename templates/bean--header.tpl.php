@@ -39,12 +39,12 @@
 </div>
 <style>
 body{
-  <?php if($content['field_background_color']): ?>
+  <?php if(isset($content['field_background_color']['#items'])): ?>
   background-color:<?php print $content['field_background_color']['#items'][0]['safe_value']; ?>;
   <?php endif; ?>
 }
 .l-branding-wrapper{
-  <?php if($content['field_background_image']): ?>
+  <?php if(isset($content['field_background_image']['#items'])): ?>
   background-image:url('<?php print file_create_url($content['field_background_image']['#items'][0]['uri']); ?>');
   <?php endif; ?>
   background-position:center top;
