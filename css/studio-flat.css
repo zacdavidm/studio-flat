@@ -208,6 +208,22 @@ aside.sidebar{
 }
 /* /Set Region Color */
 
+
+/* Films Sliders */
+  .view-films-slider .slick{
+    margin-bottom:0;
+  }
+
+  .view-films-slider .slide .field-type-text-long {
+    padding:0px;
+  }
+
+  .view-films-slider .field-summary p{
+    margin-bottom:0;
+  }
+/* /Films Sliders */
+
+
 @media only screen and (min-width: 40.063em){ /* Medium Up */
 
 /* Site Name */
@@ -221,6 +237,8 @@ aside.sidebar{
 
 /* /Site Name */
 
+
+
 /* Top Bar Dropdown Arrows */
 .top-bar-section .has-dropdown > a:after{
     border-top-color: rgba(0, 0, 0, 0.4);
@@ -228,5 +246,22 @@ aside.sidebar{
   }
 
 /* /Top Bar Dropdown Arrows */
+
+/* Events */
+  .node-event.node-teaser{
+    background-color:#E4E4E4;
+    padding:1rem;
+    padding-bottom:.01px;
+  }
+
+  .node-event.node-teaser .image{
+    margin:-1rem -1rem 1rem -1rem;
+  }
+
+  .view-events .slide .node-event.node-teaser{
+    border-right:1px solid white;
+    border-left:1px solid white;
+  }
+/* /Events */
 
 } /* /Medium Up */
