@@ -223,6 +223,28 @@ aside.sidebar{
   }
 /* /Films Sliders */
 
+/* Footer Menus */
+#footer_first{
+	text-align:center;
+}
+#footer_first ul.menu {
+margin: 0 auto 1.0625rem auto;
+margin-left: -1.375rem;
+margin-right: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+}
+
+#footer_first ul.menu>li {
+list-style: none;
+margin-left: 1.375rem;
+display: inline-block;
+}
+
+#footer_first ul.menu > li>* {
+display: block;
+}
 
 @media only screen and (min-width: 40.063em){ /* Medium Up */
 
