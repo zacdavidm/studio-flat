@@ -246,9 +246,12 @@ aside.sidebar{
   display: block;
 }
 
-.l-footer{
+.footer-wrapper{
   background-color: #000;
-  color: #999;
+  color:#999;
+}
+
+.l-footer{
   padding: 1rem 0;
 }
 .l-footer a{

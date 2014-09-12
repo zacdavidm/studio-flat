@@ -169,29 +169,31 @@
 
 	  <?php if (!empty($page['footer_first']) || !empty($page['footer_middle']) || !empty($page['footer_last'])): ?>
 		<!--.l-footer-->
-		<footer class="l-footer panel row" role="contentinfo">
-		  <?php if (!empty($page['footer_first'])): ?>
-			<div id="footer-first" class="large-12 columns">
-			  <?php print render($page['footer_first']); ?>
-			</div>
-		  <?php endif; ?>
-		  <?php if (!empty($page['footer_middle'])): ?>
-			<div id="footer-middle" class="large-12 columns">
-			  <?php print render($page['footer_middle']); ?>
-			</div>
-		  <?php endif; ?>
-		  <?php if (!empty($page['footer_last'])): ?>
-			<div id="footer-last" class="large-12 columns">
-			  <?php print render($page['footer_last']); ?>
-			</div>
-		  <?php endif; ?>
+		<div class="footer-wrapper">
+			<footer class="l-footer row" role="contentinfo">
+			  <?php if (!empty($page['footer_first'])): ?>
+				<div id="footer-first" class="large-12 columns">
+				  <?php print render($page['footer_first']); ?>
+				</div>
+			  <?php endif; ?>
+			  <?php if (!empty($page['footer_middle'])): ?>
+				<div id="footer-middle" class="large-12 columns">
+				  <?php print render($page['footer_middle']); ?>
+				</div>
+			  <?php endif; ?>
+			  <?php if (!empty($page['footer_last'])): ?>
+				<div id="footer-last" class="large-12 columns">
+				  <?php print render($page['footer_last']); ?>
+				</div>
+			  <?php endif; ?>
 
-		  <?php if ($site_name) :?>
-			<div class="copyright large-12 columns">
-			  &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
-			</div>
-		  <?php endif; ?>
-		</footer>
+			  <?php if ($site_name) :?>
+				<div class="copyright large-12 columns">
+				  &copy; <?php print date('Y') . ' ' . check_plain($site_name) . ' ' . t('All rights reserved.'); ?>
+				</div>
+			  <?php endif; ?>
+			</footer>
+		</div>
 		<!--/.footer-->
 	  <?php endif; ?>
   </div>
