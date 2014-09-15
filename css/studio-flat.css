@@ -27,6 +27,7 @@ h6{
   border: 2px solid #c8c8c8;
   width:100%;
   max-width:550px;
+  overflow:hidden;
 }
 
 .form-managed-file .form-file{
