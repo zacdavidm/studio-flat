@@ -23,7 +23,7 @@ h6{
 
 .form-managed-file{
   cursor:pointer;
-  max-width:40.063em;
+  max-width:32rem;
   position:relative;
 
   -webkit-appearance: none;
@@ -47,6 +47,10 @@ h6{
   -webkit-transition: all 0.15s linear;
   -moz-transition: all 0.15s linear;
   transition: all 0.15s linear;
+}
+
+.form-managed-file .image-widget-data{
+  width:100%;
 }
 
 .form-managed-file .form-file{
