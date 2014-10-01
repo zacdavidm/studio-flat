@@ -25,7 +25,7 @@ h6{
   cursor:pointer;
   max-width:32rem;
   position:relative;
-
+  min-height: 2.2625rem;
   -webkit-appearance: none;
   background-color: #ffffff;
   font-family: inherit;
@@ -50,6 +50,11 @@ h6{
 
 .form-managed-file .image-widget-data{
   width:100%;
+}
+
+.form-managed-file .file{
+  padding: .6rem;
+  display: inline-block;
 }
 
 .form-managed-file .form-file{
