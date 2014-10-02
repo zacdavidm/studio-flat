@@ -175,6 +175,10 @@ display: block;
   z-index:5;
 }
 
+.top-bar .toggle-topbar.menu-icon{
+  z-index:5;
+}
+
 .contain-to-grid{
   color: #ffffff;
   border-bottom-width:3px;
