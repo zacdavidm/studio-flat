@@ -19,6 +19,10 @@ h6{
 }
 /* /Reset Heading Sizes */
 
+main{
+  display:block;
+}
+
 /* File Input Styling */
 
 .form-managed-file{
