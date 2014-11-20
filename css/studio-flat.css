@@ -79,6 +79,20 @@ main{
 
 /* /File Input Styling */
 
+/* Date with End Date */
+.container-inline-date{
+  display:inline;
+}
+
+.container-inline-date .form-type-date-popup > label {
+  display: inline-block;
+  float: left;
+  position: relative;
+  left: -10px;
+  top: .5rem;
+}
+/* /Date with End Date */
+
 table{
   width:100%;
 }
