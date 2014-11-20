@@ -26,8 +26,8 @@ main{
 /* File Input Styling */
 
 .form-managed-file{
+  padding:.5rem;
   cursor:pointer;
-  max-width:32rem;
   position:relative;
   min-height: 2.2625rem;
   -webkit-appearance: none;
@@ -65,7 +65,6 @@ main{
   position:relative;
   z-index:1;
   cursor:inherit;
-  padding:.5rem;
 }
 
 .form-managed-file .form-submit{
