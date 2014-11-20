@@ -52,8 +52,8 @@ main{
   transition: all 0.15s linear;
 }
 
-.form-managed-file .image-widget-data{
-  width:100%;
+.image-preview {
+  min-width: 110px;
 }
 
 .form-managed-file .file{
