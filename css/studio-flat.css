@@ -285,6 +285,8 @@ aside.sidebar{
 
 /* Set Region Color */
 .l-navigation-region,
+.l-messages,
+.l-help,
 .l-main{
   background-color:white;
 }
