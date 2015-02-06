@@ -368,28 +368,11 @@ aside.sidebar{
 
 
 /* Top Bar Dropdown Arrows */
-.top-bar-section .has-dropdown > a:after{
+  .top-bar-section .has-dropdown > a:after{
     border-top-color: rgba(0, 0, 0, 0.4);
     border-left-color:transparent;
   }
 
 /* /Top Bar Dropdown Arrows */
-
-/* Events */
-  .node-event.node-teaser{
-    background-color:#E4E4E4;
-    padding:1rem;
-    padding-bottom:.01px;
-  }
-
-  .node-event.node-teaser .image{
-    margin:-1rem -1rem 1rem -1rem;
-  }
-
-  .view-events .slide .node-event.node-teaser{
-    border-right:1px solid white;
-    border-left:1px solid white;
-  }
-/* /Events */
 
 } /* /Medium Up */
