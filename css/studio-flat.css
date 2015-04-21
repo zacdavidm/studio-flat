@@ -335,6 +335,15 @@ aside.sidebar{
   color:#999;
 }
 
+.footer-wrapper h1,
+.footer-wrapper h2,
+.footer-wrapper h3,
+.footer-wrapper h4,
+.footer-wrapper h5,
+.footer-wrapper h6{
+  color:#fff;
+}
+
 .l-footer{
   padding: 1rem 0;
 }
