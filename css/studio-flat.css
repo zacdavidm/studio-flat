@@ -361,6 +361,39 @@ aside.sidebar{
 
 /* Row Padding */
 
+/* wysiwyg height fix */
+
+.cke_contents {
+  min-height: 7rem;
+}
+/* /wysiwyg height fix */
+
+/* text filter styling */
+
+.filter-wrapper{
+  padding:1rem;
+}
+
+.filter-wrapper .form-item{
+  margin:0;
+  padding:0;
+}
+
+.filter-wrapper .form-item label{
+  display:none;
+}
+
+.filter-wrapper select.filter-list{
+  margin:0;
+  padding-right:1rem;
+}
+
+.filter-wrapper .filter-guidelines{
+  display:none;
+}
+
+/* /text-filter styling */
+
 @media only screen and (min-width: 40.063em){ /* Medium Up */
 
 /* Site Name */
