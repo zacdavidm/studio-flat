@@ -58,7 +58,7 @@
 <?php if(isset($content['field_contact_link'])):
   $contact_link=$content['field_contact_link']['#items'][0];
   ?>
-<a target="_blank" href="<?php print $contact_link['url'];?>"><i class="fi-torsos-all"></i><span><?php print $contact_link['title'];?></span></a>
+<a target="_blank" href="<?php print $contact_link['url'];?>"><i class="fi-torsos-female-male"></i><span><?php print $contact_link['title'];?></span></a>
 <?php endif; ?>
 
 <?php if(isset($content['field_call_link'])):
