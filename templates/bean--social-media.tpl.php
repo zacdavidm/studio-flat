@@ -55,5 +55,17 @@
 <a target="_blank" href="<?php print $nl_link['url'];?>"><i class="fi-mail"></i><span><?php print $nl_link['title'];?></span></a>
 <?php endif; ?>
 
+<?php if(isset($content['field_contact_link'])):
+  $contact_link=$content['field_contact_link']['#items'][0];
+  ?>
+<a target="_blank" href="<?php print $contact_link['url'];?>"><i class="fi-torsos"></i><span><?php print $contact_link['title'];?></span></a>
+<?php endif; ?>
+
+<?php if(isset($content['field_call_link'])):
+  $call_link=$content['field_call_link']['#items'][0];
+  ?>
+<a target="_blank" href="<?php print $call_link['url'];?>"><i class="fi-telephone"></i><span><?php print $call_link['title'];?></span></a>
+<?php endif; ?>
+
   </div>
 </div>
